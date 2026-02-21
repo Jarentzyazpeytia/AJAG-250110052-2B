@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablas de Frecuencia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>TABLAS DE FRECUENCIA</h1>
+    <section>
+        <h2>Introducción</h2>
+        <p>
+En el presente trabajo se desarrollan tres ejemplos aplicando los principios básicos de la estadística descriptiva: El primero utilizando datos de entrada cuantitativos discretos el segundo usando como entrada, datos cuantitativos
+continuos y el tercero utilizando como datos de entrada datos cualitativos. En cada caso se trabajó con una muestra de 100 datos, construyendo su respectiva tabla de frecuencia que incluye frecuencia absoluta, frecuencia relativa y frecuencia acumulada. Asimismo, se elaboraron diferentes representaciones gráficas como histogramas, diagramas de barras, polígonos de frecuencia, ojivas y diagramas de pastel.
+        </p>
+    </section>
+    <section>
+        <h3>Cuantitativo Discreto</h3>
+         <h4>Número de hermanos</h4>
+        <p>
+            La variable estudiada es el número de hermanos, que corresponde a una variable cuantitativa discreta, ya que se expresa con números enteros y se puede contar.
+
+Se preguntó a 100 alumnos cuántos hermanos tienen. Los datos obtenidos se ordenaron de menor a mayor (0, 1, 2, 3, etc.). Posteriormente, se contó cuántas veces apareció cada valor para obtener la frecuencia absoluta. Luego, se calculó la frecuencia acumulada sumando progresivamente las frecuencias, y la frecuencia relativa dividiendo cada frecuencia entre el total de datos.
+
+La mayor parte de los alumnos tiene uno o dos hermanos, mientras que pocos alumnos tienen cuatro o más. Esto permite observar cómo se distribuye el tamaño de las familias entre los estudiantes.
+        </p>
+        <h4>Recoleccion de Datos</h4>
+        <pre>
+5   5   5   5
+
+4   4   4   4   4
+4   4   4
+
+3   3   3   3   3
+3   3   3   3   3
+3   3   3   3   3
+3   3   3
+
+2   2   2   2   2
+2   2   2   2   2
+2   2   2   2   2
+2   2   2   2   2
+2   2   2   2   2
+2   2   2   2   2
+
+1   1   1   1   1
+1   1   1   1   1
+1   1   1   1   1
+1   1   1   1   1
+1   1   1   1   1
+1   1   1
+
+0   0   0   0   0
+0   0   0   0   0
+0   0
+        </pre>
+        <p>
+ En la variable número de hermanos, se obtuvieron 100 datos. De estos, 12 alumnos no tienen hermanos, 28 tienen uno, 30 tienen dos, 18 tienen tres, 8 tienen cuatro y 4 tienen cinco hermanos.
+        </p>
+
+        <div>
+  <caption><h4>Tabla de Frecuencia</h4> </caption>
+<table>
+    <thead>
+        <tr>
+            <th>No. de Hermanos</th>
+            <th>Frecuencia Absoluta (f)</th>
+            <th>Frecuencia Acumulada (Fa)</th>
+            <th>Frecuencia Relativa (Fr)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>0</td>
+            <td>12</td>
+            <td>12</td>
+            <td>12%</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>28</td>
+            <td>40</td>
+            <td>28%</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>30</td>
+            <td>70</td>
+            <td>30%</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>18</td>
+            <td>88</td>
+            <td>18%</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>8</td>
+            <td>96</td>
+            <td>8%</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>4</td>
+            <td>100</td>
+            <td>4%</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total</th>
+            <th>100</th>
+            <th>100</th>
+            <th>100%</th>
+        </tr>
+    </tfoot>
+</table>
+
+        </div>
+
+<h4>Graficas</h4>
+        <p>
+Se presentan las siguientes graficas, en las cuales se toma como referencia la tabla 2, en la cual se muestra el numero de hermanos que tienen los alumnos. En este caso las cantidades de hermanos que tienen es: "0, 1, 2, 3, 4, 5"
+<h5>Histograma</h5>
+ <div class="Histograma">
+            <img src="imagenes/Histograma_tabla1_trans.png" width="400">
+        </div>
+        <h5>Poligono de frecuencia</h5>
+ <div class="Poligono de frecuencia">
+            <img src="imagenes/Poligono_de_Frecuencias1_trans.png" width="400">
+        </div>
+        <h5>Grafico de barras</h5>
+ <div class="Grafico de barras">
+            <img src="imagenes/Graficodebarras_tabla1_trans.png" width="400">
+        </div>
+        <h5>Ojiva</h5>
+ <div class="Ojiva">
+            <img src="imagenes/Ojiva_tabla1_trans.png" width="400">
+        </div>
+        <h5>Diagrama de pastel</h5>
+ <div class="Diagrama de pastel">
+            <img src="imagenes/Diagramadepastel_tabla1_trans.png" width="400">
+        </div>
+        </p>
+    </section>
+
+    <section>
+        <h3>Cuantitativo Continuos</h3>
+        <p>
+            <h4>Estatura de los alumnos (cm)</h4>
+La variable analizada es la estatura, la cual es una variable cuantitativa continua, ya que puede tomar cualquier valor dentro de un intervalo.
+
+Se midió la estatura de 100 alumnos en centímetros. Primero se identificó la estatura mínima (150 cm) y la máxima (180 cm). Con estos valores se calculó el rango, que fue de 30 cm. Posteriormente, se dividió el rango en 5 intervalos de igual amplitud (6 cm). Una vez formados los intervalos, se contó cuántos datos pertenecían a cada uno para obtener la frecuencia absoluta, y se calcularon la frecuencia acumulada y la frecuencia relativa.
+
+La mayor concentración de alumnos se encuentra en los intervalos de estatura media, lo que indica que la mayoría tiene una estatura cercana al promedio, mientras que pocos alumnos se encuentran en los extremos.
+        </p>
+<h4>Recolección de Datos.</h4>
+<pre>
+179  179  179  179  179
+178  178  178  177  177
+177  176  176  176  175
+175  175  175  174  174
+174  174  173  173  173
+172  172  172  172  171
+171  171  170  170  170
+170  169  169  169  168
+168  168  168  167  167
+167  166  166  166  165
+165  165  165  164  164
+163  163  163  162  162
+162  162  162  161  161
+161  160  160  160  159
+159  159  158  158  157
+156  156  155  155  155
+154  154  153  152  152
+152  151  150  150  150
+</pre>
+<p>
+En la variable estatura, se recopilaron 100 mediciones agrupadas en intervalos. Se encontraron 10 alumnos en el intervalo de 150 a 155 cm, 22 en el intervalo de 156 a 161 cm, 30 en el de 162 a 167 cm, 25 en el de 168 a 173 cm y 13 en el intervalo de 174 a 179 cm.
+</p>
+        <div>
+   <caption> <h4>Tabla de Frecuencia</h4> </caption>
+<table>
+    <thead>
+        <tr>
+            <th>Intervalo (cm)</th>
+            <th>Límite Inferior</th>
+            <th>Límite Superior</th>
+            <th>Marca de Clase (Mc)</th>
+            <th>Frecuencia Absoluta (F)</th>
+            <th>Frecuencia Acumulada (Fa)</th>
+            <th>Frecuencia Relativa (Fr)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>150 - 155</td>
+            <td>150</td>
+            <td>155</td>
+            <td>152.5</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10%</td>
+        </tr>
+        <tr>
+            <td>156 - 161</td>
+            <td>156</td>
+            <td>161</td>
+            <td>158.5</td>
+            <td>22</td>
+            <td>32</td>
+            <td>22%</td>
+        </tr>
+        <tr>
+            <td>162 - 167</td>
+            <td>162</td>
+            <td>167</td>
+            <td>164.5</td>
+            <td>30</td>
+            <td>62</td>
+            <td>30%</td>
+        </tr>
+        <tr>
+            <td>168 - 173</td>
+            <td>168</td>
+            <td>173</td>
+            <td>170.5</td>
+            <td>25</td>
+            <td>87</td>
+            <td>25%</td>
+        </tr>
+        <tr>
+            <td>174 - 179</td>
+            <td>174</td>
+            <td>179</td>
+            <td>177</td>
+            <td>13</td>
+            <td>100</td>
+            <td>13%</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total</th>
+            <th>-</th>
+            <th>-</th>
+            <th>-</th>
+            <th>100</th>
+            <th>100</th>
+            <th>100%</th>
+        </tr>
+    </tfoot>
+</table>    
+        </div>
+        <p>
+    <h4>Graficas</h4>
+Se presentan las siguientes graficas, en las cuales se toma como referencia la tabla 3, en la cual se muestra la estatura de los alumnos medidos en centimetros, en este caso los intervalos de edades: "150-155, 156-161, 162-167, 168-173, 174-179", los cuales se representan como: "1, 2, 3, 4, 5".
+<h5>Histograma</h5>
+ <div class="Histograma">
+            <img src="imagenes/Histograma_tabla2_trans.png" width="400">
+        </div>
+        <h5>Poligono de frecuencia</h5>
+ <div class="Poligono de frecuencia">
+            <img src="imagenes/Poligono_de_Frecuencias2_trans.png" width="400">
+        </div>
+        <h5>Grafico de barras</h5>
+ <div class="Grafico de barras">
+            <img src="imagenes/Graficodebarras_tabla2_trans.png" width="400">
+        </div>
+        <h5>Ojiva</h5>
+ <div class="Ojiva">
+            <img src="imagenes/Ojiva_tabla2_trans.png" width="400">
+        </div>
+        <h5>Diagrama de pastel</h5>
+ <div class="Diagrama de pastel">
+            <img src="imagenes/Diagramadepastel_tabla2_trans.png" width="400">
+        </div>
+</p>
+    </section>
+ <section>
+        <h3>Tabla de Frecuencia Cualitativa</h3>
+        <p>
+            <h4>Color de la Mochila de los Alumnos</h4>
+La variable analizada es el color de la mochila, la cual es una variable cualitativa, ya que clasifica los datos en categorías y no utiliza valores numéricos.
+
+Primero se encuestó a 100 alumnos preguntándoles el color de su mochila. Posteriormente, se agruparon las respuestas en categorías iguales (negra, azul, roja, gris y otros). Después se contó cuántas veces apareció cada categoría para obtener la frecuencia absoluta. Finalmente, se calculó la frecuencia relativa dividiendo cada frecuencia entre el total de datos, y el porcentaje multiplicando la frecuencia relativa por 100.
+
+Los resultados muestran que el color de mochila más común es el negro, seguido del azul, mientras que los colores menos frecuentes son el gris y otros colores distintos. Esto permite identificar las preferencias más comunes entre los alumnos.
+
+        </p>
+<h4>Recolección de Datos.</h4>
+<pre>
+Roja     Roja     Roja     Roja     Roja
+Roja     Roja     Roja     Roja     Roja
+Roja     Roja     Roja     Roja     Roja
+
+Negra    Negra    Negra    Negra    Negra
+Negra    Negra    Negra    Negra    Negra
+Negra    Negra    Negra    Negra    Negra
+Negra    Negra    Negra    Negra    Negra
+Negra    Negra    Negra    Negra    Negra
+Negra    Negra    Negra    Negra    Negra
+Negra    Negra    Negra    Negra    Negra
+Negra    Negra    Negra    Negra    Negra
+
+Gris     Gris     Gris     Gris     Gris
+Gris     Gris     Gris     Gris     Gris
+
+Azul     Azul     Azul     Azul     Azul
+Azul     Azul     Azul     Azul     Azul
+Azul     Azul     Azul     Azul     Azul
+Azul     Azul     Azul     Azul     Azul
+Azul     Azul     Azul     Azul     Azul
+
+Otros    Otros    Otros    Otros    Otros
+Otros    Otros    Otros    Otros    Otros
+
+</pre>
+<p>
+En la variable color de mochila, se registraron un total de 100 datos, de los cuales 40 alumnos utilizan mochila negra, 25 azul, 15 roja, 10 gris y 10 otros colores. Esto permite observar que el color más frecuente es el negro.
+</p>        
+<div>
+          <caption> <h4>Tabla de Frecuencia</h4> </caption>
+<table>
+    <thead>
+        <tr>
+            <th>Color</th>
+            <th>Frecuencia Absoluta (f)</th>
+            <th>Frecuencia Acumulada (fa)</th>
+            <th>Frecuencia Relativa (fr)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Azul</td>
+            <td>25</td>
+            <td>25</td>
+            <td>25%</td>
+        </tr>
+        <tr>
+            <td>Gris</td>
+            <td>10</td>
+            <td>35</td>
+            <td>10%</td>
+        </tr>
+        <tr>
+            <td>Negra</td>
+            <td>40</td>
+            <td>75</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Roja</td>
+            <td>10</td>
+            <td>85</td>
+            <td>10%</td>
+        </tr>
+        <tr>
+            <td>Otros</td>
+            <td>15</td>
+            <td>100</td>
+            <td>15%</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th>Total</th>
+            <th>100</th>
+            <th>100</th>
+            <th>100%</th>
+        </tr>
+    </tfoot>
+</table>
+
+        </div>
+<p>
+    <h4>Graficas</h4>
+Se presentan las siguientes graficas, en las cuales se toma como referencia la tabla presentada durante este reporte. Presentando los datos de las tabla: "Azul, Gris, Negra, Roja y otros", con los numeros: "1, 2, 3, 4 y 5"
+<h5>Histograma</h5>
+ <div class="Histograma">
+            <img src="imagenes/Histograma_tabla3_trans.png" width="400">
+        </div>
+        <h5>Poligono de frecuencia</h5>
+ <div class="Poligono de frecuencia">
+            <img src="imagenes/Poligono_de_Frecuencias3_trans.png" width="400">
+        </div>
+        <h5>Grafico de barras</h5>
+ <div class="Grafico de barras">
+            <img src="imagenes/Graficodebarras_tabla3_trans.png" width="400">
+        </div>
+        <h5>Ojiva</h5>
+ <div class="Ojiva">
+            <img src="imagenes/Ojiva_tabla3_trans.png" width="400">
+        </div>
+        <h5>Diagrama de pastel</h5>
+ <div class="Diagrama de pastel">
+            <img src="imagenes/Diagramadepastel_tabla3_trans.png" width="400">
+        </div>
+</p>
+    </section>
+
+    <section>
+        <h2>Conclusión</h2>
+        <p>
+    El desarrollo de este trabajo permitió aplicar de manera práctica los conceptos fundamentales de la estadística descriptiva, comprendiendo la importancia de organizar y analizar datos correctamente. A través de la construcción de tablas de frecuencia y la elaboración de diferentes representaciones gráficas, se pudo observar cómo la información puede presentarse de forma clara para facilitar su interpretación.
+
+Se identificaron las diferencias entre variables cualitativas, cuantitativas discretas y cuantitativas continuas, así como los procedimientos específicos para cada una, incluyendo el cálculo de frecuencias absolutas, relativas y acumuladas. Además, las gráficas elaboradas permitieron visualizar la distribución de los datos y detectar tendencias dentro de cada ejemplo.
+
+En conclusión, la estadística descriptiva es una herramienta esencial en el área de Probabilidad y Estadística, ya que permite transformar datos en información útil para la toma de decisiones y el análisis de situaciones reales.
+        </p>
+    </section>
+</body>
+</html>
